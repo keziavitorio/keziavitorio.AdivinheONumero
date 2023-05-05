@@ -1,4 +1,4 @@
-  // Adicionando variáveis para armazenar nossos dados
+// Adicionando variáveis para armazenar nossos dados
 
   var randomNumber = Math.floor(Math.random() * 100) + 1;
 
