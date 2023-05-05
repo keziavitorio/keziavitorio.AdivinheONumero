@@ -10,21 +10,27 @@
   </head>
 
   <body>
-    <h1>Jogo Adivinhe um número</h1>
 
-    <p>Selecionamos um número aleatório entre 1 e 100. Veja se consegue adivinhar em 10 chances ou menos. Nós lhe diremos se seu palpite está com valor alto ou baixo.</p>
+    <div class="container">
 
-    <div class="form">
-      <label for="guessField">Enter a guess: </label>
+      <h1>Jogo Adivinhe um número</h1>
+
+      <p>Selecionamos um número aleatório entre 1 e 100. Veja se consegue adivinhar em 10 chances ou menos. Nós lhe diremos se seu palpite está com valor alto ou baixo.</p>
+
+      <div class="form">
+      <label for="guessField">Palpite: </label>
       <input type="text" min="1" max="100" id="guessField" class="guessField">
-      <input type="submit" value="Enviar palpite" class="guessSubmit">
-    </div>
+      <input type="submit" value="Adivinhe" class="guessSubmit">
+      </div>
 
-    <div class="resultParas">
+      <div class="resultParas">
       <p class="guesses"></p>
       <p class="lastResult"></p>
       <p class="lowOrHi"></p>
+      </div>
+
     </div>
+    
 
 
     <script type="text/javascript" src="script.js"></script>
